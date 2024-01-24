@@ -60,6 +60,13 @@ main {
     outline: none;
     color: #ffffff;
     border-radius: 5px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+
+}
+
+.search-box button:hover {
+    background-color: #c020c0;
 }
 
 .result {
